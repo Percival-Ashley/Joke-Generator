@@ -15,7 +15,7 @@ function generateJoke(event) {
 
   let apiKey = "3471d6bbaf0b6da9tcfad5o5ae1dc50c";
   let context =
-    "You are a funny AI Assistant that tells short and sweet jokes.";
+    "You are a funny AI Assistant that tells short and sweet jokes. The joke must be provided in HTML format. Example: <p>this is a joke</p>";
   let prompt = "Generate a short and unique joke.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 

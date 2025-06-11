@@ -1,2 +1,8 @@
+function generateJoke(event) {
+  event.preventDefault();
+
+  let jokeElement = document.getElementById("#joke");
+}
+
 let generatorButton = document.getElementById("generator-joke-button");
-console.log(generatorButton);
+generatorButton.addEventListener("click", generateJoke);

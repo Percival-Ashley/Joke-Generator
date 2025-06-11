@@ -1,5 +1,5 @@
 function displayJoke(response) {
-  console(response.data);
+  console.log(response.data);
 }
 
 function generateJoke(event) {

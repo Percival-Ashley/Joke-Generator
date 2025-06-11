@@ -1,4 +1,6 @@
-function displayJoke(response) {}
+function displayJoke(response) {
+  alert(response.data.answer);
+}
 
 function generateJoke(event) {
   event.preventDefault();
@@ -9,7 +11,7 @@ function generateJoke(event) {
   let prompt = "Generate a short and funny joke.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  axios.ger(apiUrl).then(displayJoke);
+  axios.get(apiUrl).then(displayJoke);
 }
-let generatorButton = document.getElementById("generator-joke-button");
+let generatorButton = document.querySelector("generator-joke-button");
 generatorButton.addEventListener("click", generateJoke);

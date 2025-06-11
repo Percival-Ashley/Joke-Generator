@@ -1,6 +1,4 @@
 function displayJoke(response) {
-  console.log(response.data.answer);
-
   let jokeElement = document.querySelector("#joke");
   jokeElement.innerHTML = response.data.answer;
 }

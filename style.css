@@ -5,6 +5,8 @@ body {
     rgb(181, 255, 255) 100.5%
   );
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 15px 60px;
+  color: #e809c2;
 }
 button {
   background-color: #f0f0f0;

@@ -13,6 +13,9 @@ function generateJoke(event) {
   let prompt = "Generate a short and unique joke.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let jokeElement = document.querySelector("#joke");
+  jokeElement.innerHTML = "Generating a joke for you...please wait.";
+
   console.log("called the AI api");
   axios.get(apiUrl).then(displayJoke);
 }

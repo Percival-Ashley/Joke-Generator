@@ -13,5 +13,5 @@ function generateJoke(event) {
 
   axios.get(apiUrl).then(displayJoke);
 }
-let generatorButton = document.querySelector("#generator-joke-button");
+let generatorButton = document.querySelector("#generate-joke-button");
 generatorButton.addEventListener("click", generateJoke);

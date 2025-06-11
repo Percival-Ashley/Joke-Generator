@@ -1,7 +1,13 @@
 function displayJoke(response) {
   let jokeElement = document.querySelector("#joke");
   console.log(response.data.answer);
-  jokeElement.innerHTML = response.data.answer;
+
+  new Typewriter("#joke", {
+    strings: "response.data.answer",
+    autoStart: true,
+    cursor: null,
+    delay: 40,
+  });
 }
 
 function generateJoke(event) {

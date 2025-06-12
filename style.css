@@ -24,16 +24,3 @@ footer {
   font-size: 12px;
   font-family: "Courier New", Courier, monospace;
 }
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 80px;
-  background: linear-gradient(
-    68.6deg,
-    rgb(252, 165, 241) 1.8%,
-    rgb(181, 255, 255) 100.5%
-  );
-  border: 2px solid #e809c2;
-  border-radius: 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}

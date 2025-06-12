@@ -33,6 +33,6 @@ footer {
     rgb(252, 165, 241) 1.8%,
     rgb(181, 255, 255) 100.5%
   );
-  border-radius: 10px;
+  border-radius: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
